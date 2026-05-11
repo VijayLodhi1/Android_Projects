@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".NewUser">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="New User"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            android:text="User As"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/rbLibIncharge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Library Incharge"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbPrincipalFaculty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Principal / Faculty"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbStudent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Student"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/llStudent"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/textView112"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Full Name : "
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/etFullName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:inputType="text" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:orientation="horizontal"
+                        android:padding="2dp">
+
+                        <TextView
+                            android:id="@+id/textView113"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="Date of Birth : "
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_weight="1">
+
+                            <EditText
+                                android:id="@+id/etDate"
+                                android:layout_width="40dp"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:hint="dd"
+                                android:inputType="number" />
+
+                            <TextView
+                                android:id="@+id/textView1130"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" / "
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/etMonth"
+                                android:layout_width="40dp"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:hint="mm"
+                                android:inputType="number" />
+
+                            <TextView
+                                android:id="@+id/textView1131"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" / "
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/etYear"
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:hint="yy"
+                                android:inputType="number" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/textView114"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Father's Name : "
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/etFatherName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:inputType="text" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/textView115"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mother's Name : "
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/etMotherName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:inputType="text" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Enrollment Number : "
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/etEnrollmentNumber"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:inputType="text" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/textView110"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="E-mail ID : "
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/etEmailID"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:inputType="text" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/textView1100"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Password : "
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/etPassword"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:inputType="textPassword" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnCreateUser"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@color/white"
+                        android:text="Create User"
+                        android:onClick="createStudentDB"
+                        android:textStyle="bold" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
