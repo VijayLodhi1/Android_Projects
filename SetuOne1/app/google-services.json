@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "728791096092",
+    "project_id": "setuone1-2f501",
+    "storage_bucket": "setuone1-2f501.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728791096092:android:3b753a51d6d3425de9f8d9",
+        "android_client_info": {
+          "package_name": "in.vl.setuone1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRL0TZe3Ke-GoIwCuRy48b4N6w7DU1RZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

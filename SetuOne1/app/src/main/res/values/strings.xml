@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SetuOne1</string>
+
+    <string name="hint_emailID">Enter your unique EmailID</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="label_login_btn">Login</string>
+    <string name="hint_or">OR</string>
+    <string name="label_create_new_account_btn">Create New Account</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="label_create_account_btn">Create Account</string>
+    <string name="hint_welcome">Welcome</string>
+    <string name="label_google">Google</string>
+    <string name="label_government_portals">Government Portals</string>
+    <string name="label_education_portals">School Education Portals</string>
+    <string name="label_shopping">Shopping</string>
+    <string name="label_ai">Artificial Intelligence</string>
+    <string name="label_social_media">Social Media</string>
+    <string name="label_rgpv">Rajiv Gandhi Proudyogiki Vishwavidyalaya</string>
+    <string name="label_ott">Over The Top (OTT) Platform </string>
+
+</resources>

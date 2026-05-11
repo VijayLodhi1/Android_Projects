@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OTTActivity">
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Log Out"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:hint="@string/hint_welcome" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivMXPlayer"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/mx_player_logo_svg" />
+
+            <ImageView
+                android:id="@+id/iv_zee5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/zee5logo" />
+
+            <ImageView
+                android:id="@+id/iv_amazon_prime_video"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/amazon_prime_video_logo" />
+
+            <ImageView
+                android:id="@+id/iv_sonyliv"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/sonylivlogo" />
+
+            <ImageView
+                android:id="@+id/iv_youtube"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/youtubelogo" />
+
+            <ImageView
+                android:id="@+id/iv_hotstar"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/jiohotsarlogo" />
+
+            <ImageView
+                android:id="@+id/iv_netflix"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/netflixlogo" />
+
+            <ImageView
+                android:id="@+id/ivCrunchyroll"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/crunchyroll_2024_svg" />
+
+            <ImageView
+                android:id="@+id/ivRakutenViki"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/rakuten_viki_2022_svg" />
+
+            <ImageView
+                android:id="@+id/ivErosNow"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/eros_now_logo_svg" />
+
+            <ImageView
+                android:id="@+id/ivShemaroo"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/shemaroo_entertainment_logo" />
+
+            <ImageView
+                android:id="@+id/ivAha"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/aha__streaming_service_svg" />
+
+            <ImageView
+                android:id="@+id/ivCuriosity"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/curiositystreamblack_svg" />
+
+            <ImageView
+                android:id="@+id/ivUNext"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/u_next_logo_black_svg" />
+
+            <ImageView
+                android:id="@+id/ivVidio"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/vidio_logo_svg" />
+
+            <ImageView
+                android:id="@+id/ivShowmax"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/showmax_logo" />
+
+            <ImageView
+                android:id="@+id/ivChorki"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/chorki_logo" />
+
+            <ImageView
+                android:id="@+id/ivYouTubeTV"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/youtube_tv_logo_2024_svg" />
+
+            <ImageView
+                android:id="@+id/ivStan"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/stan_logo_svg" />
+
+            <ImageView
+                android:id="@+id/ivStarZ"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/starz_2022_svg" />
+
+            <TextView
+                android:background="@drawable/shape"
+                android:textColor="#ff0000"
+                android:id="@+id/tvExploreFurtherClickHere"
+                android:layout_width="match_parent"
+                android:text="Explore further click here !"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
