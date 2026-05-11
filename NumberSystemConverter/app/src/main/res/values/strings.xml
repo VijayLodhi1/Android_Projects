@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Number System Converter</string>
+
+    <string-array name="from_spinner_values">
+        <item>Select</item>
+        <item>Binary</item>
+        <item>Octal</item>
+        <item>Decimal</item>
+        <item>Hexadecimal</item>
+    </string-array>
+
+    <string-array name="to_spinner_values">
+        <item>Select</item>
+        <item>All</item>
+        <item>Binary</item>
+        <item>Octal</item>
+        <item>Decimal</item>
+        <item>Hexadecimal</item>
+    </string-array>
+
+</resources>

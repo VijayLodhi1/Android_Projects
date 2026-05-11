@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="custom_scrollbar_style" parent="@android:style/Widget.ListView">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:scrollbarThumbVertical">@drawable/custom_scrollbar</item>
+    </style>
+</resources>
